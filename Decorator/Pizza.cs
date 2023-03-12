@@ -6,6 +6,6 @@ public class Pizza : IPizza
 {
     public string GetPizzaType()
     {
-        return "This is a pizza with tomatoe sauce.";
+        return "This is a pizza with tomato sauce.";
     }
 }
