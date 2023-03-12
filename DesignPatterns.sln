@@ -3,20 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{123AFC89-6EE4-4892-B75C-B202359DCE4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{123AFC89-6EE4-4892-B75C-B202359DCE4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{6085E70F-A48F-480D-8431-16E7791D9CB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{842E2691-F982-4003-8208-4A96242ADA95}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{123AFC89-6EE4-4892-B75C-B202359DCE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{123AFC89-6EE4-4892-B75C-B202359DCE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{123AFC89-6EE4-4892-B75C-B202359DCE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{123AFC89-6EE4-4892-B75C-B202359DCE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{123AFC89-6EE4-4892-B75C-B202359DCE4F} = {6085E70F-A48F-480D-8431-16E7791D9CB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134590EC-9D67-4ED7-A816-8A9CC7B4BFBC}
 	EndGlobalSection
 EndGlobal
