@@ -2,7 +2,7 @@ using Decorator.Interfaces;
 
 namespace Decorator.Decorators;
 
-public class PizzaDecorator : IPizza
+public abstract class PizzaDecorator : IPizza
 {
     private IPizza _pizza;
 
