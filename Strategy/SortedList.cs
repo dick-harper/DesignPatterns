@@ -7,6 +7,11 @@ public class SortedList
 
   public void SetSortStrategy(SortStrategy sortStrategy)
   {
+    if(sortStrategy==null)
+    {
+        throw new ArgumentNullException("sortStrategy");
+    }
+    
     this._sortStrategy = sortStrategy;
   }
 
